@@ -48,3 +48,8 @@
         + /carrito/:id --> ruta para eliminar un carrito --> DELETE
         + /carrito/:id --> ruta para comprar un carrito --> POST
         + /carrito/:id/productos/:id_prod --> ruta para eliminar un producto del carrito --> DELETE
+
+
+La ruta "/productos/:codigo" no fué implementada en el frontend, pero si funciona en el backend si lo probamos con postman.
+Debemos crear un producto y asignarle un codigo, y buscar el producto por el codigo, sino tambien se puede buscar los productos
+que ya existen en mi base de datos.
